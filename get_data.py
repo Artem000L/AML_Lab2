@@ -4,7 +4,7 @@ import os
 
 # Получение данных
 data = 'https://archive.ics.uci.edu/static/public/186/data.csv'
-response = requests.get(data, verity=False)
+response = requests.get(data, verify=False)
 
 os.makedirs('data', exist_ok=True)
 
